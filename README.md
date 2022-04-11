@@ -89,18 +89,18 @@ fetch('/api/v1/tree');
 
 ## Your notes
 
-- This was an interesting assignment! Looking at it further I realized that only about half of the project was finished unlike we thought. That means I did in fact end up doing most of story 3 and all of story 4 (showing a preview of a document was already done but I had to show the preview of the contents of a folder meaning I still have to create a grid view and the compoinents for showing file contents).
+- This was an interesting assignment! Looking at it further I realized that only about half of the project was finished unlike we thought. That means I did in fact end up doing most of story 3 and all of story 4 (showing a preview of a document was already done but I had to show the preview of the contents of a folder meaning I still have to create a grid view and the components for showing file contents).
 
-- I also made a few executive decisions but those can also be easily changed - for example I made it so that a folder is only activated when you click it and it's closed. when it's open and you click it again I removed the preview because you are technically closing the content you were selecting so nothing should be shown. To change that all that would have to be done is removing appContext.setSelectedfile(file) to outside the if statement checking if the folder is opened or closed
+- I also made a few executive decisions but those can also be easily changed - for example I made it so that a folder is only activated when you click it and it's closed. when it's open and you click it again I removed the preview because you are technically closing the content you were selecting so nothing should be shown. To change that all that would have to be done is removing appContext.setSelectedfile(file) to outside the if statement checking if the folder is opened or closed. Figure it doesn't matter either way since this is just a technical assessment but thought it would be good to explain.
 
-- The first additional feature I focused on was adding two search bars -- one in the nav bar to give a quick top-level view of the roote folders and documents and one within the preview to find specific files within a folder
+- The first additional feature I focused on was adding two search bars -- one in the nav bar to give a quick top-level view of the root folders and documents and one within the preview to find specific files within a folder
 
-- the second additional feature was creating a modal preview feature. Now, if you click a document within the preview screen, it will popup with it's details instead of taking up the whole page
+- the second additional feature was creating a modal preview feature. Now, if you click a document within the preview screen, it will pop up with it's details instead of taking up the whole page
 
-- Timing is a bit difficult for me to tell since I didn't do it in one sitting and most of the technically difficulties/learning curve was learning Material UI since that is what was set up from the applicant who previously began filling this out. If I take out the time from reading the documentation to udnerstand the code already written with Material UI as well as the time taken to think/test possible features, I would say it was probably within 4-5 hours or so. I could probably have shaved this time down a bit if I didn't spend some time really trying to get something things to work closely to how I originally wanted. For example, figuring out a good way to dynamically change the number of rows in a grid view took some time where I could have just left it at a static number. I spent the time on it though becuase I figured more effort is always good!
+- Timing is a bit difficult for me to tell since I didn't do it in one sitting and most of the technically difficulties/learning curve was learning Material UI since that is what was set up from the applicant who previously began filling this out. If I take out the time from reading the documentation to understand the code already written with Material UI as well as the time taken to think/test possible features, I would say it was probably within 4-5 hours or so. I could probably have shaved this time down a bit if I didn't spend time really trying to get some things to work in a particular way I wanted. For example, figuring out a good way to dynamically change the number of rows in a grid view took some time where I could have just left it at a static number. I spent the time on it though becuase I figured more effort is always good!
 
 - I think the difficulty here was reasonable -- it's always good to have a test that is like what the actual work will be. The instructions were also very clear.
 
-- I forgot to do git updates throughout so I just removed all my features and then added them one by one and pushed for your convenience
+- I forgot to do git updates throughout sorry!
 
 - Thank you for the test! I enjoyed working on it and I hope to be able to show you more soon!

@@ -6,8 +6,6 @@ import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import Divider from '@mui/material/Divider';
 import styled from 'styled-components';
-import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
-
 import { AppContext } from '../AppContext';
 import { Action, useQuery } from 'react-fetching-library';
 import { FlatDataType } from '../../types/types';
